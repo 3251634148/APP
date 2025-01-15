@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		144930FC70E4166F14F0C8B0 /* Pods_LCX_IOS_APP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CE98F3483D1EB980E645F60 /* Pods_LCX_IOS_APP.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		91ACBB4A2D3786A000191C1E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,25 +28,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		105C72C5CEE1A4A8B4F66138 /* Pods-LCX-IOS-APP-LCX-IOS-APPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCX-IOS-APP-LCX-IOS-APPUITests.release.xcconfig"; path = "Target Support Files/Pods-LCX-IOS-APP-LCX-IOS-APPUITests/Pods-LCX-IOS-APP-LCX-IOS-APPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1589BD850FD8AA73164DABC7 /* Pods-LCX-IOS-APP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCX-IOS-APP.release.xcconfig"; path = "Target Support Files/Pods-LCX-IOS-APP/Pods-LCX-IOS-APP.release.xcconfig"; sourceTree = "<group>"; };
+		1CE98F3483D1EB980E645F60 /* Pods_LCX_IOS_APP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCX_IOS_APP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B03757D053963EB8B1E03DF /* Pods-LCX-IOS-APPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCX-IOS-APPTests.debug.xcconfig"; path = "Target Support Files/Pods-LCX-IOS-APPTests/Pods-LCX-IOS-APPTests.debug.xcconfig"; sourceTree = "<group>"; };
 		91ACBB392D37869D00191C1E /* LCX-IOS-APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LCX-IOS-APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91ACBB492D3786A000191C1E /* LCX-IOS-APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LCX-IOS-APPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91ACBB532D3786A000191C1E /* LCX-IOS-APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LCX-IOS-APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1D4B7E2EF66B1C9A68DF8C /* Pods-LCX-IOS-APP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCX-IOS-APP.debug.xcconfig"; path = "Target Support Files/Pods-LCX-IOS-APP/Pods-LCX-IOS-APP.debug.xcconfig"; sourceTree = "<group>"; };
+		BCABDAD768CAC43BC99DC7AF /* Pods-LCX-IOS-APP-LCX-IOS-APPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCX-IOS-APP-LCX-IOS-APPUITests.debug.xcconfig"; path = "Target Support Files/Pods-LCX-IOS-APP-LCX-IOS-APPUITests/Pods-LCX-IOS-APP-LCX-IOS-APPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1567E43E33E67AB070B7D05 /* Pods-LCX-IOS-APPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCX-IOS-APPTests.release.xcconfig"; path = "Target Support Files/Pods-LCX-IOS-APPTests/Pods-LCX-IOS-APPTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		91ACBB3B2D37869D00191C1E /* LCX-IOS-APP */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "LCX-IOS-APP";
-			sourceTree = "<group>";
-		};
-		91ACBB4C2D3786A000191C1E /* LCX-IOS-APPTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "LCX-IOS-APPTests";
-			sourceTree = "<group>";
-		};
-		91ACBB562D3786A000191C1E /* LCX-IOS-APPUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "LCX-IOS-APPUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				144930FC70E4166F14F0C8B0 /* Pods_LCX_IOS_APP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,13 +74,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48EF41A6013CA6501DA25C89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CE98F3483D1EB980E645F60 /* Pods_LCX_IOS_APP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		91ACBB302D37869D00191C1E = {
 			isa = PBXGroup;
 			children = (
 				91ACBB3B2D37869D00191C1E /* LCX-IOS-APP */,
-				91ACBB4C2D3786A000191C1E /* LCX-IOS-APPTests */,
-				91ACBB562D3786A000191C1E /* LCX-IOS-APPUITests */,
 				91ACBB3A2D37869D00191C1E /* Products */,
+				C0876EDA2FE714E808EBFA19 /* Pods */,
+				48EF41A6013CA6501DA25C89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +102,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C0876EDA2FE714E808EBFA19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC1D4B7E2EF66B1C9A68DF8C /* Pods-LCX-IOS-APP.debug.xcconfig */,
+				1589BD850FD8AA73164DABC7 /* Pods-LCX-IOS-APP.release.xcconfig */,
+				BCABDAD768CAC43BC99DC7AF /* Pods-LCX-IOS-APP-LCX-IOS-APPUITests.debug.xcconfig */,
+				105C72C5CEE1A4A8B4F66138 /* Pods-LCX-IOS-APP-LCX-IOS-APPUITests.release.xcconfig */,
+				4B03757D053963EB8B1E03DF /* Pods-LCX-IOS-APPTests.debug.xcconfig */,
+				F1567E43E33E67AB070B7D05 /* Pods-LCX-IOS-APPTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91ACBB5D2D3786A000191C1E /* Build configuration list for PBXNativeTarget "LCX-IOS-APP" */;
 			buildPhases = (
+				A449FB012E1E385D82E2D159 /* [CP] Check Pods Manifest.lock */,
 				91ACBB352D37869D00191C1E /* Sources */,
 				91ACBB362D37869D00191C1E /* Frameworks */,
 				91ACBB372D37869D00191C1E /* Resources */,
+				D11EAA3A34DD745D6CC106B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,8 +136,6 @@
 				91ACBB3B2D37869D00191C1E /* LCX-IOS-APP */,
 			);
 			name = "LCX-IOS-APP";
-			packageProductDependencies = (
-			);
 			productName = "LCX-IOS-APP";
 			productReference = 91ACBB392D37869D00191C1E /* LCX-IOS-APP.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +144,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91ACBB602D3786A000191C1E /* Build configuration list for PBXNativeTarget "LCX-IOS-APPTests" */;
 			buildPhases = (
+				2AB28FB3B146E114C24D35EF /* [CP] Check Pods Manifest.lock */,
 				91ACBB452D3786A000191C1E /* Sources */,
 				91ACBB462D3786A000191C1E /* Frameworks */,
 				91ACBB472D3786A000191C1E /* Resources */,
@@ -130,12 +154,7 @@
 			dependencies = (
 				91ACBB4B2D3786A000191C1E /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				91ACBB4C2D3786A000191C1E /* LCX-IOS-APPTests */,
-			);
 			name = "LCX-IOS-APPTests";
-			packageProductDependencies = (
-			);
 			productName = "LCX-IOS-APPTests";
 			productReference = 91ACBB492D3786A000191C1E /* LCX-IOS-APPTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,21 +163,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91ACBB632D3786A000191C1E /* Build configuration list for PBXNativeTarget "LCX-IOS-APPUITests" */;
 			buildPhases = (
+				75D809D1EAC36A72B59DEDC6 /* [CP] Check Pods Manifest.lock */,
 				91ACBB4F2D3786A000191C1E /* Sources */,
 				91ACBB502D3786A000191C1E /* Frameworks */,
 				91ACBB512D3786A000191C1E /* Resources */,
+				CBEB7933D2FEF78CFBF891B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				91ACBB552D3786A000191C1E /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				91ACBB562D3786A000191C1E /* LCX-IOS-APPUITests */,
-			);
 			name = "LCX-IOS-APPUITests";
-			packageProductDependencies = (
-			);
 			productName = "LCX-IOS-APPUITests";
 			productReference = 91ACBB532D3786A000191C1E /* LCX-IOS-APPUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -230,6 +246,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AB28FB3B146E114C24D35EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LCX-IOS-APPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75D809D1EAC36A72B59DEDC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LCX-IOS-APP-LCX-IOS-APPUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A449FB012E1E385D82E2D159 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LCX-IOS-APP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBEB7933D2FEF78CFBF891B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LCX-IOS-APP-LCX-IOS-APPUITests/Pods-LCX-IOS-APP-LCX-IOS-APPUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LCX-IOS-APP-LCX-IOS-APPUITests/Pods-LCX-IOS-APP-LCX-IOS-APPUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LCX-IOS-APP-LCX-IOS-APPUITests/Pods-LCX-IOS-APP-LCX-IOS-APPUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D11EAA3A34DD745D6CC106B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LCX-IOS-APP/Pods-LCX-IOS-APP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LCX-IOS-APP/Pods-LCX-IOS-APP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LCX-IOS-APP/Pods-LCX-IOS-APP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		91ACBB352D37869D00191C1E /* Sources */ = {
@@ -390,6 +509,7 @@
 		};
 		91ACBB5E2D3786A000191C1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC1D4B7E2EF66B1C9A68DF8C /* Pods-LCX-IOS-APP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -399,17 +519,16 @@
 				DEVELOPMENT_TEAM = APYKC3V5KP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Work Display";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "\"$(inherited) @executable_path/Frameworks\"";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tencent.LCX-IOS-APP";
+				PRODUCT_BUNDLE_IDENTIFIER = "forever-river-outlook.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -419,6 +538,7 @@
 		};
 		91ACBB5F2D3786A000191C1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1589BD850FD8AA73164DABC7 /* Pods-LCX-IOS-APP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -428,17 +548,16 @@
 				DEVELOPMENT_TEAM = APYKC3V5KP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Work Display";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "\"$(inherited) @executable_path/Frameworks\"";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tencent.LCX-IOS-APP";
+				PRODUCT_BUNDLE_IDENTIFIER = "forever-river-outlook.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -448,6 +567,7 @@
 		};
 		91ACBB612D3786A000191C1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B03757D053963EB8B1E03DF /* Pods-LCX-IOS-APPTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +587,7 @@
 		};
 		91ACBB622D3786A000191C1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1567E43E33E67AB070B7D05 /* Pods-LCX-IOS-APPTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +607,7 @@
 		};
 		91ACBB642D3786A000191C1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCABDAD768CAC43BC99DC7AF /* Pods-LCX-IOS-APP-LCX-IOS-APPUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -503,6 +625,7 @@
 		};
 		91ACBB652D3786A000191C1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 105C72C5CEE1A4A8B4F66138 /* Pods-LCX-IOS-APP-LCX-IOS-APPUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

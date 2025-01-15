@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct LCX_IOS_APPApp: App {
+    init() {
+        FirebaseApp.configure()
+    }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ChatView()
         }
     }
 }

@@ -1,0 +1,6 @@
+framework module Pods_LCX_IOS_APP {
+  umbrella header "Pods-LCX-IOS-APP-umbrella.h"
+
+  export *
+  module * { export * }
+}
